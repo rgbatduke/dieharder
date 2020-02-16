@@ -1,11 +1,15 @@
-\documentclass{book}
+\documentclass[12pt]{book}
 \usepackage{graphicx}
 \usepackage{epsfig}
 \usepackage{html}
 \usepackage{latexsym}
 
-\input crown_quarto.tex
-\input macros.tex
+% \input crown_quarto.tex
+% \input rgbmacros.tex
+\newcommand{\die}{\emph{Dieharder}\ }
+\newcommand{\link}[2]{\htmladdnormallink{#1}{#2}}
+\newcommand{\bv}{ \begin{verbatim} }
+
 
 \begin{document}
 
@@ -19,14 +23,14 @@
 % 
 
 \pagestyle{empty}
-\vsfill
+\vspace{\fill}
 
 \centerline{\huge \bf Die{\em Harder:}}
 \bigskip
 \bigskip
 \centerline{\Large \bf A Gnu Public License Random Number Tester}
 
-\vsfill
+\vspace{\fill}
 \centerline{\large by}
 \bigskip
 \centerline{\Large Robert G. Brown}
@@ -35,16 +39,16 @@
 \centerline{Durham, NC 27708-0305}
 \centerline{rgb@phy.duke.edu}
 
-\vsfill
-\blankpage
-\vsfill
+\vspace{\fill}
+\newpage
+\vspace{\fill}
 
 \centerline{\large \bf Copyright Notice}
 \centerline{Copyright Robert G. Brown 2006}
-\centerline{Current version: \version}
+\centerline{Current version: 3.31}
 % \centerline{ISBN: }
 
-\blankpage
+\newpage
 
 \centerline{\Large \bf Notice}
 
