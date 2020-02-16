@@ -11,6 +11,7 @@
 # One reference: 
 #   http://stackoverflow.com/questions/3096989/libtool-version-mismatch-error
 
+libtoolize
 autoreconf 
 ./configure
 make
